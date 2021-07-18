@@ -56,7 +56,7 @@ let qte = Array.from(document.getElementsByClassName("quantity"))
 let price=Array.from(document.getElementsByClassName("price"))
 let sum=0
   for (let i = 0; i < price.length; i++) {
-  sum+=(price[i].innerHTML.replace("TND", " "))*(qte[i].innerHTML)
+  sum+=price[i].innerHTML.replace("TND", " ")*qte[i].innerHTML
   }
   totalPrice.innerHTML=sum+" TND"
 }
