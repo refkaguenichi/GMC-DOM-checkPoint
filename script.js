@@ -26,7 +26,6 @@ for (let i = 0; i< btnMinus.length; i++) {
      btnMinus[i].previousElementSibling.innerHTML--
   }
   total()
-   cartPlus.style.color='red'
 });
 }
 
